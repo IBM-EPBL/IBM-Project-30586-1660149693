@@ -1,0 +1,58 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>ASSIGNMENT 1 FORM</title>
+		<script>
+			function getdetails()
+			{
+				
+				var name= document.getElementById('name').value;
+				var qual= document.getElementById('qual').value;
+				var age= document.getElementById('age').value;
+				var email= document.getElementById('email').value;
+				console.log("Name is:"+name);
+				console.log("Qualification is:"+qual);
+				console.log("Age is:"+age);
+				console.log("Email Id is:"+email);
+				document.getElementById("demo").innerHTML= "Name is:"+name+"<br>Qualification is:"+qual+"<br>Age is:"+age+"<br>Email Id is:"+email;
+				
+			}
+			
+
+			
+		</script>
+
+		<style>
+			form,div{
+				text-align: center;
+				
+			}
+		</style>
+
+		
+		
+	</head>
+	<body>
+		
+		<form >
+			<h1>ASSIGNMNENT 1</h1>
+			<label>Name :</label>
+			<input id="name" type="text" placeholder="Enter your name"><br><br>
+			<label>Qualification :</label>
+			<input id="qual" type="text" placeholder="Enter your Qualification"><br><br>
+			<label>Age :</label>
+			<input id="age" type="number" placeholder="Enter your age"><br><br>
+			<label>Email :</label>
+			<input  id="email" type="email" placeholder="Enter your email"><br><br>
+			<input type="submit" value = "Submit" onclick="getdetails();">
+			
+			
+		</form>
+		<div id="">
+			<p id="demo">
+				Details will be displayed by browser here
+			</p>
+		</div>
+		
+	</body>
+	</html>
