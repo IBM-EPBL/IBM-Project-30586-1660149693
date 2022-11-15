@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="dash.css" />
+  <!-- Font Awesome Cdn Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <a href="#">Chikkanam.com</a>
+      <div class="search_box">
+        <input type="text" placeholder="Search Expenses">
+        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div class="header-icons">
+      <i class="fas fa-bell"></i>
+      <div class="account">
+        <img src="./pic/img.jpg" alt="">
+        <h4>Jhon Viek</h4>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+    <nav>
+      <div class="side_navbar">
+        <span>Main Menu</span>
+        <a href="dash.html" class="active">Dashboard</a>
+        <a href="#">Chart</a>
+        <a href="expen.html">Expenses</a>
+        <a href="#">Guidelines</a>
+        <a href="#">My Account</a>
+        <a href="login.html">Logout</a>
+
+       
+      </div>
+    </nav>
+
+    <div class="main-body">
+      <h2>Dashboard</h2>
+      <div class="promo_card">
+        <h1>Welcome to Chikkanam.com</h1>
+        <span>Expenses Tracker Wesite</span>
+        <button>Learn More</button>
+      </div>
+
+      <div class="history_lists">
+        <div class="list1">
+          <div class="row">
+            <h4>Expenses Made</h4>
+            <a href="#">See all</a>
+          </div>
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Expense Name</th>
+                <th>Date</th>
+                <th>Payment Type</th>
+                <th>Amount</th>
+                
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Electricity</td>
+                <td>2, Aug, 2022</td>
+                <td>Epay</td>
+                <td>2,000</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Rent</td>
+                <td>29, July, 2022</td>
+                <td>Cash</td>
+                <td>10,000</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Other Bills</td>
+                <td>15, July, 2022</td>
+                <td>Epay</td>
+                <td>2,500</td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Medical</td>
+                <td>5, July, 2022</td>
+                <td>Cash</td>
+                <td>5,000</td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Entertainments</td>
+                <td>29, June, 2022</td>
+                <td>Epay</td>
+                <td>500</td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Other Bills</td>
+                <td>28, June, 2022</td>
+                <td>Epay</td>
+                <td>500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <h4>Details</h4>
+      
+      <div class="balance">
+        <i class="fas fa-dollar icon"></i>
+        <div class="info">
+          <h5>Limit</h5>
+          <span><i class="fas fa-dollar"></i>45,000</span>
+        </div>
+      </div>
+      
+      <div class="balance">
+        <i class="fa-solid fa-rupee-sign icon"></i>
+        <div class="info">
+          <h5>Expenses Made</h5>
+          <span><i class="fa-solid fa-rupee-sign"></i>10,000</span>
+        </div>
+      </div>
+
+      <div class="balance">
+        <i class="fas fa-euro icon"></i>
+        <div class="info">
+          <h5>Weekly Expenses</h5>
+          <span><i class="fas fa-euro"></i>5,500</span>
+        </div>
+      </div>
+
+      <div class="balance">
+        <i class="fa-solid fa-indian-rupee-sign icon"></i>
+        <div class="info">
+          <h5>Current Balance</h5>
+          <span><i class="fa-solid fa-indian-rupee-sign"></i>25,000</span>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+</body>
+</html>
